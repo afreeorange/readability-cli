@@ -1,5 +1,7 @@
 # readability-cli
 
+A fork of [@gardenappl's original](https://gitlab.com/gardenappl/readability-cli).
+
 ### Firefox Reader View in your terminal!
 
 **readability-cli** takes any HTML page and strips out unnecessary bloat by using [Mozilla's Readability library](https://github.com/mozilla/readability). As a result, you get a web page which contains only the core content and nothing more. The resulting HTML is suitable for terminal browsers, text readers, and other uses.
@@ -76,3 +78,4 @@ See [locales](locales).
 ## Why Node.js? It's so slow!
 
 I know that it's slow, but JavaScript is the most sensible option for this, since Mozilla's Readabilty library is written in JavaScript. [There have been ports of the Readability algorithm to other languages](https://github.com/masukomi/arc90-readability), but Mozilla's version is the only one that's actively maintained as of 2020.
+
